@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.content{
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  margin: 0px;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+.header {
+  background-color: #1890ff;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.but {
+  margin-left: 8px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+.but:hover {
+  background-color: #fff;
+  color: #1890ff;
+}
+
+.sidebar {
+  background-color: #f0f2f5;
+  padding: 16px;
+  width: 600px;
+}
+
+.content {
+  display: flex;
+}
+
+.map-area {
+  
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.map-container {
+  height: 800px;
+  width: 115pc;
+  border: 1px solid #130d0d;
+  margin-bottom: 16px;
+  background-color: #fff;
+  font-size: 30px;
+}
+.region-info-card{ 
+  background-color: #f0f2f5;
+  padding: 16px;
+  border-radius: 4px;
+  width: 300px;
+}
+.footer {
+  background-color: #001529;
+  padding: 96px;
+  color: #fff;
+  text-align: center;
+}
+.ant-card {
+  margin-bottom: 16px;
+}
+.night-mode-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+/* Region info card styles */
+/* .region-info-card {
+  background-color: #f0f2f5;
+  padding: 16px;
+  border-radius: 4px;
+} */
+
+/* Night mode styles */
+.night-mode-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.Select_a_region{
+  border: 3px solid #001529;
+  border-radius: 8px;
+
+}
+
+
